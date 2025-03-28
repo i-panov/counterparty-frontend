@@ -1,0 +1,44 @@
+@newBtn: #9DDE86;
+@importBtn: #FFE680;
+@exportBtn: #80B3FF;
+
+.wrap{
+  width: 600px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.but{
+  display: inline-block;
+  color: black;
+  width: 200px;
+  text-decoration: none;
+  text-align:center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius:5px;
+  margin:2px;
+}
+
+.new{
+  background-color: @newBtn;
+}
+.new:hover{
+   background-color: @newBtn - #222;
+}
+
+.import{
+  float:right;
+  background-color: @importBtn;
+}
+.import:hover{
+   background-color: @importBtn - #222;
+}
+
+.export{
+  color: white;
+  background-color: @exportBtn;
+}
+.export:hover{
+   background-color: @exportBtn - #222;
+}
